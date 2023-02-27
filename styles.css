@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+ body {
+    background:rgba(37, 253, 138,0.7);
+}
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Tilt Neon',sans-serif;
+}
+
+
+#header {
+    box-shadow:0 0 5px rgb(0,0,0,.5);
+    text-align:center;
+    font-weight:bold;
+    color:rgba(51,49,49,0.9);
+    padding:10px 0;
+    font-size:1.5em;
+}
+
+
+#main {
+    height:calc(100vh - 50.4px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+#converter_container div input {
+    font-size:1.2rem;
+    text-align:center;
+    padding:10px 5px;
+    pointer-events:all;
+    border:1.6px solid transparent;
+    border-radius:3px;
+}
+
+
+
+#converter_container div i {
+    font-size:2rem;
+    transform:rotateZ(90deg);
+}
+#icon {
+    text-align:center;
+}
+
+#converter_container div input:focus {
+    outline:none;
+    border:1.6px solid #8fb8a2;
+}
+
+@media screen and (max-width:300px) {
+    #header {
+        font-size:8vw;
+    }
+    #converter_container div input {
+        font-size:7vw;
+        padding:2vw 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
